@@ -3,7 +3,16 @@
 
 This tool provides a user-friendly Jupyter interface for transferring data between Connectors — acting as **Consumer** and **Provider** — and publishing the received data to **ArcGIS Online or Portal**.
 
+## ⚡ Quick Start
+```bash
+# 1. Install dependencies
+pip install arcgis requests ipywidgets
 
+# 2. Launch Jupyter
+jupyter notebook
+
+# 3. Open notebook
+connect_arcgis_consumer_to_provider.ipynb
 
  🚀 Overview
 This notebook automates and visualizes:
@@ -23,3 +32,21 @@ This notebook automates and visualizes:
 ### Install Dependencies
 ```bash
 pip install arcgis requests ipywidgets
+
+## ⚙️ Required Fields
+| Field | Description |
+|-------|--------------|
+| **Consumer Mgmt API** | URL of consumer’s management API (`/api/management`) |
+| **Provider DSP** | Provider’s DSP endpoint (`/api/dsp`) |
+| **Contract ID** | Active contract between connectors |
+| **Transfer Type** | `HttpData-PULL` (default) or `HttpData-PUSH` |
+| **Save to** | Local path to save downloaded data |
+| **ArcGIS Auth** | Choose Pro login or Portal credentials |
+
+
+## 🧭 How It Works 
+1. Fills in connection details & ArcGIS info.  
+2. Sends a transfer request to the Provider DSP.  
+3. Polls EDC until transfer = `COMPLETED`.  
+4. Retrieves the EDR & downloads the data.  
+5. Publishes the result to ArcGIS (if configured).
