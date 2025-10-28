@@ -1,7 +1,7 @@
 # 🛰️ EDC ↔ ArcGIS Connector UI  
 **Interactive Jupyter Notebook for Data Transfer and Publishing**
 
-This tool provides a user-friendly Jupyter interface for transferring data between Connectors — acting as **Consumer** and **Provider** — and publishing the received data to **ArcGIS Online or Portal**.
+This tool provides a user-friendly Jupyter interface for transferring data between Connectors (https://github.com/Mobility-Data-Space/mds-edc) — acting as **Consumer** and **Provider** — and publishing the received data to **ArcGIS Online or Portal**.
 
 
 ## 🚀 Overview
