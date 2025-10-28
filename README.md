@@ -4,7 +4,7 @@
 This tool provides a user-friendly Jupyter interface for transferring data between Connectors — acting as **Consumer** and **Provider** — and publishing the received data to **ArcGIS Online or Portal**.
 
 ## ⚡ Quick Start
-```bash
+
 # 1. Install dependencies
 pip install arcgis requests ipywidgets
 
