@@ -14,7 +14,7 @@ jupyter notebook
  3. Open notebook
 connect_arcgis_consumer_to_provider.ipynb
 
- 🚀 Overview
+## 🚀 Overview
 This notebook automates and visualizes:
 - 🔄 **EDC data transfers** using the Management API (`/v3/transferprocesses`)
 - 📥 **HttpData-PULL** flow with automatic EDR retrieval and download
@@ -23,7 +23,7 @@ This notebook automates and visualizes:
 - 💾 **Config Save/Load** for quick reuse
 - 🧭 Interactive UI built with `ipywidgets`
 
-⚙️ Requirements
+## ⚙️ Requirements
 
 ### Environment
 - Python ≥ 3.8  
@@ -34,6 +34,7 @@ This notebook automates and visualizes:
 pip install arcgis requests ipywidgets
 
 ## ⚙️ Required Fields
+
 | Field | Description |
 |-------|--------------|
 | **Consumer Mgmt API** | URL of consumer’s management API (`/api/management`) |
