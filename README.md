@@ -3,16 +3,6 @@
 
 This tool provides a user-friendly Jupyter interface for transferring data between Connectors — acting as **Consumer** and **Provider** — and publishing the received data to **ArcGIS Online or Portal**.
 
-## ⚡ Quick Start
-
- 1. Install dependencies
-pip install arcgis requests ipywidgets
-
- 2. Launch Jupyter
-jupyter notebook
-
- 3. Open notebook
-connect_arcgis_consumer_to_provider.ipynb
 
 ## 🚀 Overview
 This notebook automates and visualizes:
@@ -32,6 +22,17 @@ This notebook automates and visualizes:
 ### Install Dependencies
 
 pip install arcgis requests ipywidgets
+
+## ⚡ Quick Start
+
+ 1. Install dependencies
+pip install arcgis requests ipywidgets
+
+ 2. Launch Jupyter
+jupyter notebook
+
+ 3. Open notebook
+connect_arcgis_consumer_to_provider.ipynb
 
 ## ⚙️ Required Fields
 
