@@ -30,7 +30,7 @@ This notebook automates and visualizes:
 - Jupyter Notebook or JupyterLab  
 
 ### Install Dependencies
-```bash
+
 pip install arcgis requests ipywidgets
 
 ## ⚙️ Required Fields
