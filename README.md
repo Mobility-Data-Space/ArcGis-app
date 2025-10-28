@@ -5,13 +5,13 @@ This tool provides a user-friendly Jupyter interface for transferring data betwe
 
 ## ⚡ Quick Start
 
-# 1. Install dependencies
+ 1. Install dependencies
 pip install arcgis requests ipywidgets
 
-# 2. Launch Jupyter
+ 2. Launch Jupyter
 jupyter notebook
 
-# 3. Open notebook
+ 3. Open notebook
 connect_arcgis_consumer_to_provider.ipynb
 
  🚀 Overview
