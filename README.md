@@ -32,7 +32,7 @@ pip install arcgis requests ipywidgets
 jupyter notebook
 
  3. Open notebook
-connect_arcgis_consumer_to_provider.ipynb
+arcgis assert test.ipynb
 
 ## ⚙️ Required Fields
 
